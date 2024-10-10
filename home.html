@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food web site</title>
+   
+     <!--Template stylesheet-->
+     <link rel="stylesheet" href="style.css">
+  
+    <!--connect form php file-->
+    <link rel="formsheet" href="C:\xamppnew\htdocs\submit_form.php">
+    
+
+    <!--Font awesome cdn link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+
+   
+  </head>
+<body>
+  <!--nav bar start-->
+    <header>
+           <a href="#" class="logo"> <span> TOMATO .</span></a>
+            <nav class="navbar" id="navbar">
+                    <a href="home.html">HOME</a>
+                    <a href="about.html">ABOUT</a>                   
+                    <a href="menu.html">MENU</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="order.html">ORDER</a>
+            </nav>
+               <div class="icons" id="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-user"></a>
+               </div> 
+            
+            </header>
+ <!--nav bar end-->
+
+   <!--Home section start-->
+   <div class="home" id="home">
+   
+    <div class="container">
+      <div class="mySlides">
+  
+        <div class="content">
+            <h3>Order Our Delicious Meal </h3>
+            <span>We are Delicacy</span>
+                <p>Choose from diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise.Our mission is to satisfy your cravings and elevate your diningg experience, 
+          one delicious meal at a time </p>
+           <a href="menu.html" ><button class="btn">View Menu </button></a> 
+     
+          </div></div></div>
+    
+
+          <div class="mySlides">
+        <img src="assets/homesalad.jpg" style="width: 100% ">
+        
+          <h1>Salad</h1> 
+       
+      </div>
+    
+
+  
+    <div class="mySlides">
+      <h2>Order Our Delicious Meal </h2>
+      <img src="assets/homeroll.jpg" style="width:100%" >
+      <h1>Roll</h1>
+    </div>
+      
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homeburger.jpg" style="width:100%">
+      <h1>Burger</h1>
+    </div>
+
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homesandwich.jpg" style="width:100%">
+      <h1>Sandwich</h1>
+    </div>
+
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homechicken.jpg" style="width:100%">
+      <h1>Chicken</h1>
+    </div>
+
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homepureveg1.jpg" style="width:100%">
+      <h1>Pure Veg</h1>
+    </div>
+
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homepasta.jpg" style="width:100%">
+      <h1>Pasta</h1>
+    </div>
+
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homenoodless.jpg" style="width:100%">
+      <h1>Noodles</h1>
+    </div>
+
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homedessert.jpg" style="width:100%">
+      <h1>Dessert</h1>
+    </div>
+
+    <div class="mySlides">
+      <h3>Order Our Delicious Meal </h3>
+      <img src="assets/homecake.jpg" style="width:100%">
+      <h1>Cake</h1>
+    </div>
+  
+  
+    <a class="prev" onclick="plusSlides(-1)"> ❮  </a>
+   
+    <a class="next" onclick="plusSlides(1)"> ❯ </a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+  </div>
+    
+  </div>
+  
+   </section>
+    
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="assets/home1.jpg" style="width:100%" onclick="currentSlide(1)"  alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homesalad.jpg" style="width:100%" onclick="currentSlide(2)"  alt="">
+        \
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homeroll.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homeburger.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homesandwich.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homechicken.jpg" style="width:100%" onclick="currentSlide(6)" alt="">
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="assets/homepureveg1.jpg" style="width:100%" onclick="currentSlide(7)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homepasta.jpg" style="width:100%" onclick="currentSlide(8)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homenoodless.jpg" style="width:100%" onclick="currentSlide(9)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homedessert.jpg" style="width:100%" onclick="currentSlide(10)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/homecake.jpg" style="width:100%" onclick="currentSlide(11)" alt="">
+      </div>
+    </div>
+  </div>
+  
+      
+
+  </div>
+  
+
+<footer>O  R  D  E  R     N  O  W</footer>
+<!-- home page bello picture-->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+    
+    <script src="addtocart.js"></script>
+</body>
+ <!--about section start-->
+
+ <section class="about" id="about">
+  
+  <h1 class="heading"> <span> <a href="about.html">About </a></span>  us</h1>
+
+  <div class="row">
+  <div class="video-container" >
+    <video src="assets/about1.mp4" loop autoplay muted></video>
+    <h3>Made a Best Food</h3>
+  </div>
+
+  <div class="content">
+    <h3>We ready to supply food for you anytime.Best & fastest DELIVERY in your place</h3>
+    <div class="video-container1" >
+      <table>
+       <tr><td><video src="assets/about2.mp4" loop autoplay muted></video></td> 
+       <td><video src="assets/made1.mp4" loop autoplay muted></video></td></tr>
+        <tr><td><video src="assets/about22.mp4" loop autoplay muted></video></td>
+        <td><video src="assets/about6.mp4" loop autoplay muted></video></td></tr>
+        <tr><td><video src="assets/diliver1.mp4" loop autoplay muted></video></td> 
+          <td><video src="assets/transport.mp4" loop autoplay muted></video></td></tr>
+      </table>
+   
+    <a href="loadmore.html" ><button class="btn" >Load More&#127909</button></a>
+    
+    </div>
+  </div>
+  
+  
+
+  </span>
+</div>
+
+</section>
+<footer>S  E  L  E  C  T Y  O  U  R T  A  S  T</footer>
+<!--about section end-->
+
+<!--menu section start-->
+<div class="menu" id="menu">
+  
+  <h1 class="heading">Explore Our <a href="menu.html"><span>Menu </span></a> </h1>
+
+<p>Choose from a diverse menu featuring a delectable array of dishes.Our mission is to satisfy your cravings and elevate your dining experience,one delicious meal at a time.</p>
+  
+<div class="icons">
+    <img src="assets/menu_1.png" alt="">
+    <a href="addtocartsalad.html" ><span>Salad&#129367</span> </a>
+   
+    
+  </div>
+ 
+  <div class="icons">
+    <img src="assets/menu_2.png" alt="">
+    <a href="addtocartrolls.html" > <span>Rolls&#127789</span></a>
+     
+    
+  </div>
+
+  <div class="icons">
+    <img src="assets/menu_10.jpg" alt="">
+    <a href="addtocartburger.html" > <span>Burger&#129366</span></a>
+     
+    
+  </div>
+
+  <div class="icons">
+    <img src="assets/menu_4.png" alt="">
+    <a href="addtocartsandwich.html"> <span>Sandwich&#127790</span></a>
+      
+  </div>
+
+  <div class="icons">
+    <img src="assets/menu_9.jpg" alt="">
+    <a href="addtocartchicken.html" > <span>Chicken&#127831</span></a>
+
+  </div>
+ 
+  <div class="icons">
+    <img src="assets/menu_6.png" alt="">
+    <a href="addtocartpureveg.html"> <span>Pure veg&#129369</span></a>
+      
+    
+  </div>
+  <div class="icons">
+    <img src="assets/menu_7.png" alt="">
+    <a href="addtocartpasta.html"> <span>Pasta&#129367</span></a>
+      
+    
+  </div>
+  <div class="icons">
+    <img src="assets/menu_8.png" alt="">
+    <a href="addtocartnoodles.html"> <span>Noodles&#127836 </span></a>
+      
+  </div>
+  
+  <div class="icons">
+    <img src="assets/menu_3.png" alt="">
+    <a href="addtocartdessert.html"> <span>Desert&#127848</span></a>
+
+    
+  </div>
+
+  <div class="icons">
+    <img src="assets/menu_5.png" alt="">
+    <a href="addtocartcake.html"> <span>Cake&#127856</span></a>
+  
+    
+  </div>
+    </div>
+    </div>
+  
+  </section>
+<!--menu section end-->
+<footer> T O T A L   P R I C E </footer> 
+
+
+ <!--Order start-->
+
+ <section class="order" id="order">
+  <h1 class="heading"> <span> <a href="order.html">Order </a></span></h1>
+  
+
+  <div class="row">
+    
+    <div class="container">
+      <h2><span>Order </span> Your Favorite Food</h2>
+      <form action="C:\xamppnew\htdocs\sc11537\submit_form.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="tel">Telephone no:</label>
+          <input type="text" id="tel" name="tel" required>
+
+          <label for="address">Adress :</label>
+          <input type="text" id="address" name="address" required>
+
+          <label for="food">Type of Food:</label>
+         
+          <table>
+            <tr>
+                <td><input type="checkbox" id="salad" name="food[]" value="Salad"></td>
+                <td><label for="salad">Salad</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="rolls" name="food[]" value="Rolls"></td>
+                <td><label for="rolls">Rolls</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="burger" name="food[]" value="Burger"></td>
+                <td><label for="burger">Burger</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="sandwich" name="food[]" value="Sandwich"></td>
+                <td><label for="sandwich">Sandwich</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="chicken" name="food[]" value="Chicken"></td>
+                <td><label for="chicken">Chicken</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="pureveg" name="food[]" value="Pure Veg"></td>
+                <td><label for="pureveg">Pure Veg</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="pasta" name="food[]" value="Pasta"></td>
+                <td><label for="pasta">Pasta</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="noodles" name="food[]" value="Noodles"></td>
+                <td><label for="noodles">Noodles</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="dessert" name="food[]" value="Dessert"></td>
+                <td><label for="dessert">Dessert</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="cake" name="food[]" value="Cake"></td>
+                <td><label for="cake">Cake</label></td>
+            </tr>
+        </table>
+    
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+    
+        
+        <button type="submit" onclick="myFunction()"> SUBMIT </button>
+    </form>
+
+
+    
+
+    <script>
+      function myFunction() {
+          document.getElementById("form").reset();
+      }
+      </script>
+           
+  </div>
+
+
+
+  </div>
+</section>
+<!--Ordersection end-->
+
+<section>
+<footer class="footer" id="contact">
+  <div class="section__container footer__container">
+
+    <div class="footer__col">
+      <div class="logo">
+        <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+      </div>
+      <p class="section__description">
+        Discover a world of comfort, luxury, and adventure as you explore
+        our curated selection of hotels, making every moment of your getaway
+        truly extraordinary.
+      </p>
+     
+    </div>
+    <div class="footer__col">
+      <h4>QUICK LINKS</h4>
+      <ul class="footer__links">
+        <li><a href="#">Browse Destinations</a></li>
+        <li><a href="#">Special Offers & Packages</a></li>
+        <li><a href="#">Room Types & Amenities</a></li>
+        <li><a href="#">Customer Reviews & Ratings</a></li>
+        <li><a href="#">Travel Tips & Guides</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>OUR SERVICES</h4>
+      <ul class="footer__links">
+        <li><a href="#">Concierge Assistance</a></li>
+        <li><a href="#">Flexible Booking Options</a></li>
+        <li><a href="#">Airport Transfers</a></li>
+        <li><a href="#">Wellness & Recreation</a></li>
+      </ul>
+    </div>
+<div class="footer__col">
+  <h2>CONTACT US</h2>
+  <ul class="footer__links">
+    <li><a href="#">rayalpark@info.com</a></li>
+  </ul>
+  <div class="footer__socials">
+    <a href="#"><img src="assets/icons8-facebook-50.png" alt="facebook" /></a>
+    <a href="#"><img src="assets/icons8-instagram-50.png" alt="instagram" /></a>
+    
+    <a href="#"><img src="assets/icons8-youtube-50.png" alt="youtube" /></a>
+    <a href="#"><img src="assets/twitter_icon.png" alt="twitter" /></a>
+    <a href="#"><img src="assets/app_store.png" alt="app" /></a>
+  </div>
+</div>
+</div>
+<div class="footer__bar">
+Copyright © 2023 Web Design Mastery. All rights reserved.
+</div>
+</footer>
+</section>
+</html>
